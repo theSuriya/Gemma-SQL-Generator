@@ -8,7 +8,7 @@ The Gemma 2B SQL Generator is a specialized version of the Gemma 2B model, fine-
 - **Fine-Tuning Details:** The model was fine-tuned specifically for generating SQL queries.
 - **Training Loss:** Achieved a training loss of 0.3, indicating a high level of accuracy in SQL query generation.
 ## Model Link
-The model Available on HuggingFace[Model Link](https://huggingface.co/suriya7/Gemma2B-Finetuned-Sql-Generator)
+The model Available on HuggingFace[Click Here](https://huggingface.co/suriya7/Gemma2B-Finetuned-Sql-Generator)
 ## Installation
 To set up the necessary environment for using the SQL Generator, run the following commands:
 ```bash
@@ -67,3 +67,8 @@ for i in tokenizer.decode(generated_ids[0], skip_special_tokens=True).split('<en
 model_answer = ans.split("model")[1].strip()
 print(model_answer)
 ```
+### Issues and Contributions
+
+If you encounter any issues or have suggestions for improving the model, please:
+- Open an issue on the GitHub repository.
+- Contact Suriya at [mail](thesuriya3@gmail.com).
