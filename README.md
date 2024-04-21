@@ -67,8 +67,12 @@ for i in tokenizer.decode(generated_ids[0], skip_special_tokens=True).split('<en
 model_answer = ans.split("model")[1].strip()
 print(model_answer)
 ```
-### Issues and Contributions
+## Issues and Contributions
 
 If you encounter any issues or have suggestions for improving the model, please:
 - Open an issue on the GitHub repository.
-- Contact Suriya at [mail](thesuriya3@gmail.com).
+- Contact Suriya at [mail here](thesuriya3@gmail.com).
+## License
+This model is released under the MIT License. See the LICENSE file for more details.
+## Acknowledgments
+- Thanks to the Hugging Face team for providing the pre-trained T5 model.
