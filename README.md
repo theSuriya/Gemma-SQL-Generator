@@ -75,4 +75,4 @@ If you encounter any issues or have suggestions for improving the model, please:
 ## License
 This model is released under the MIT License. See the LICENSE file for more details.
 ## Acknowledgments
-- Thanks to the Hugging Face team for providing the pre-trained T5 model.
+- Thanks to the Hugging Face team for providing the pre-trained Google Gemma-2b  model.
